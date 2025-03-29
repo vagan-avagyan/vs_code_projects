@@ -1,11 +1,6 @@
-def say_hello(name):
-    print("Hello, " + name)
+names = ["Alex", "Bob", "Daniel"]
 
-say_hello("VS Code")
-
-from datetime import date
-
-def say_day_of_week(date):
-    
-say_day_of_week(date.today())
-
+new_names = names.copy()
+new_names[0] = 'John'
+print(names)
+print(new_names)
